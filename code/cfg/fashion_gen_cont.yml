@@ -1,0 +1,43 @@
+CONFIG_NAME: 'attn2'
+
+DATASET_NAME: 'fashion_gen'
+DATA_DIR: '../../data/fashion_gen'
+GPU_ID: 0
+WORKERS: 4
+
+
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: True
+    NET_G: '../output2/fashion_gen_attn2_2018_08_04_06_30_14/Model/netG_epoch_8.pth'  # 
+    B_NET_D: True
+    BATCH_SIZE: 8  # 22
+    MAX_EPOCH: 120
+    SNAPSHOT_INTERVAL: 1
+    DISCRIMINATOR_LR: 0.0002
+    GENERATOR_LR: 0.0002
+    #
+    NET_E: '../output/fashion_gen_DAMSM_2018_08_06_00_52_02/Model/text_encoder55.pth'
+    SMOOTH:
+        GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
+        GAMMA2: 5.0
+        GAMMA3: 10.0  # 10good 1&100bad
+        LAMBDA: 50.0
+
+
+GAN:
+    DF_DIM: 96
+    GF_DIM: 48
+    Z_DIM: 100
+    R_NUM: 3
+    c_dim: 48
+    c_dim2: 2
+    c_dim3: 45
+
+TEXT:
+    EMBEDDING_DIM: 512
+    CAPTIONS_PER_IMAGE: 1
+    WORDS_NUM: 15
