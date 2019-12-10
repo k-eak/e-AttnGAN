@@ -1,7 +1,7 @@
-CONFIG_NAME: 'attn2'
+CONFIG_NAME: 'e-attn'
 
 DATASET_NAME: 'fashion_gen'
-DATA_DIR: '../../data/fashion_gen'
+DATA_DIR: '../data'
 GPU_ID: 0
 WORKERS: 4
 
@@ -12,7 +12,7 @@ TREE:
 
 TRAIN:
     FLAG: True
-    NET_G: '../output2/fashion_gen_attn2_2018_08_04_06_30_14/Model/netG_epoch_8.pth'  # 
+    NET_G: '../output/fashion_gen_e-attn_2018_08_04_06_30_14/Model/netG_epoch_8.pth'  #
     B_NET_D: True
     BATCH_SIZE: 8  # 22
     MAX_EPOCH: 120
@@ -20,7 +20,7 @@ TRAIN:
     DISCRIMINATOR_LR: 0.0002
     GENERATOR_LR: 0.0002
     #
-    NET_E: '../output/fashion_gen_DAMSM_2018_08_06_00_52_02/Model/text_encoder55.pth'
+    NET_E: '../../output/DAMSM/Model/text_encoder45.pth'
     SMOOTH:
         GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
         GAMMA2: 5.0
@@ -33,9 +33,10 @@ GAN:
     GF_DIM: 48
     Z_DIM: 100
     R_NUM: 3
-    c_dim: 48
-    c_dim2: 2
-    c_dim3: 45
+    c_dim: 19
+    c_dim2: 17
+    c_dim3: 4
+    c_dim4: 2
 
 TEXT:
     EMBEDDING_DIM: 512

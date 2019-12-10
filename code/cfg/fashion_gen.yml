@@ -1,7 +1,7 @@
-CONFIG_NAME: 'attn2'
+CONFIG_NAME: 'e-attn'
 
 DATASET_NAME: 'fashion_gen'
-DATA_DIR: '../../data'
+DATA_DIR: '../data'
 GPU_ID: 0
 WORKERS: 4
 
