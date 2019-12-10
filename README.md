@@ -27,7 +27,15 @@ Instructions for Fashion Synthesis and FashionGen datasets will be added soon.
  
 - Train AttnGAN models:
   - For Fashion Synthesis dataset: `python main.py --cfg cfg/fashion_gen.yml --gpu 0`
-  - For coco dataset: `python main.py --cfg cfg/coco_attn2.yml --gpu 3`
+
+
+### Citing e-AttnGAN
+If you find e-AttnGAN useful in your research, please consider citing:
+
+```
+to-do
+```
+
 
 ### Citing AttnGAN
 If you find AttnGAN useful in your research, please consider citing:

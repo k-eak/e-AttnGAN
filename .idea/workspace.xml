@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae05bcb0-aeda-4da3-a4e6-c8fad4368d78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/cfg/fashion_gen.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/cfg/fashion_gen.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/cfg/fashion_gen_cont.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/cfg/fashion_gen_cont.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575962864174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1575963076809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575963076809</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1575963202202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575963202202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
