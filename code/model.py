@@ -62,8 +62,8 @@ class ResBlock(nn.Module):
             conv3x3(channel_num, channel_num*2),
             nn.BatchNorm2d(channel_num*2))
 
-        self.w_gamma = conv1x1(channel_num*2, channel_num*2)
-        self.w_beta = conv1x1(channel_num*2, channel_num*2)
+        self.w_gamma = conv3x3(channel_num*2, channel_num*2)
+        self.w_beta = conv3x3(channel_num*2, channel_num*2)
 
         self.block2 = nn.Sequential(GLU(),conv3x3(channel_num, channel_num), nn.BatchNorm2d(channel_num))
 
