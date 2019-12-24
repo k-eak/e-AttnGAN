@@ -1,4 +1,4 @@
-# e-AttnGAN
+# e-AttnGAN (The original code (AttnGAN architecture) is taken from https://github.com/taoxugit/AttnGAN)
 
 Pytorch implementation for e-AttnGAN 
 
